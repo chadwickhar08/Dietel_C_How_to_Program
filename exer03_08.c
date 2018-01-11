@@ -23,6 +23,7 @@ int main(void)
     
     while(counter <= power)
     {
+        /*take the result of the first multiplication pass and multiply it by the next iteration*/
         result *= x;
         counter++;
     }
